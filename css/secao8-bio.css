@@ -1,0 +1,46 @@
+.bio-bg {
+  background-color: #121212;
+  border-top: 4px solid;
+  border-image: linear-gradient(270.13deg, #3f0312 38.49%, #ff0143 57.72%) 1;
+}
+
+.bio {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.bio-text {
+  max-width: 500px;
+}
+.bio-text h1 {
+  padding-top: 40px;
+  margin-bottom: 24px;
+}
+
+.bio-text p + p {
+  margin-top: 12px;
+}
+
+.bio-img img {
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .bio {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .bio-img img {
+    order: 1;
+    margin-top: 20px;
+  }
+  .bio-text {
+    order: 2;
+  }
+  .bio-text h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+  }
+}

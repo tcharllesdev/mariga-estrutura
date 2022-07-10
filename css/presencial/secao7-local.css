@@ -1,0 +1,64 @@
+.local-pr1-bg {
+  border-top: 4px solid;
+  border-image: linear-gradient(40deg, #3f0312 36%, #ff0143 79%) 1;
+}
+
+.local-pr1 h1 {
+  margin-top: 60px;
+}
+
+.local-pr1 p {
+  max-width: 800px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.local-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.local-pr2 {
+  margin-top: 40px;
+}
+
+.local-pr2 p {
+  max-width: 760px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.local-lista {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.local-lista li {
+  margin-bottom: 12px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.local-lista li::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background-color: #ff0143;
+  display: block;
+  left: -15px;
+  top: 8px;
+}
+
+.local-pr2 a {
+  margin-bottom: 60px;
+}
+
+
+@media (max-width: 431px) {
+  .local-pr1 h1 {
+    font-size: 2rem;
+  }
+}

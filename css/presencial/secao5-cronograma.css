@@ -1,0 +1,68 @@
+.cronograma-bg {
+  position: relative;
+  background-color: #121212;
+  padding-bottom: 80px;
+  z-index: 0;
+}
+
+.cronograma-bg::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../img/presencial/textura-cronograma.jpg");
+  background-size: fill;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.cronograma h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.cronograma-box {
+  margin: 0 auto;
+  background-color: #121212;
+}
+
+.cronograma-lista {
+  display: flex;
+  gap: 80px;
+  background-color: #121212;
+  padding: 60px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.cronograma-lista li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cronograma-lista li span {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .cronograma-lista {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 431px) {
+  .cronograma-lista {
+    padding: 60px 40px;
+  }
+  .cronograma h1 {
+    font-size: 2rem;
+  }
+}

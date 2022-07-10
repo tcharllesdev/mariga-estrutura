@@ -1,0 +1,37 @@
+/*PRESENCIAL*/
+@import 'tipografia.css';
+@import 'cores.css';
+@import 'global.css';
+@import 'componentes.css';
+@import 'anima.css';
+@import 'lite-yt-embed.css';
+/*PV*/
+@import 'secao1-hero.css';
+@import 'secao2-who.css';
+@import 'secao3-depoimentos.css';
+@import 'secao4-aulas.css';
+@import 'secao5-bonus.css';
+@import 'secao6-oferta.css';
+@import 'secao7-transformacao.css';
+@import 'secao8-bio.css';
+@import 'secao9-faq.css';
+/*PRESENCIAL*/
+@import 'presencial/secao1-hero.css';
+@import 'presencial/secao2-inferno.css';
+@import 'presencial/secao3-who.css';
+@import 'presencial/secao4-temas.css';
+@import 'presencial/secao5-cronograma.css';
+@import 'presencial/secao6-oferta.css';
+@import 'presencial/secao7-local.css';
+@import 'presencial/secao8-bio.css';
+@import 'presencial/secao9-faq.css';
+/*METODO MARIGA - MM*/
+@import 'metodo-mariga/secao1-mm-hero.css';
+@import 'metodo-mariga/secao2-oceano.css';
+@import 'metodo-mariga/secao3-form.css';
+@import 'metodo-mariga/secao4-temas.css';
+@import 'metodo-mariga/secao5-bio.css';
+
+
+
+

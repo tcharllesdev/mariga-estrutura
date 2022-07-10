@@ -1,0 +1,51 @@
+.trans-bg {
+  background-color: #121212;
+  padding-bottom: 60px;
+}
+.trans h1 {
+  padding-top: 60px;
+  margin-bottom: 24px;
+}
+
+.trans-ok li:last-child {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.trans-ok li + li {
+  margin-top: 8px;
+
+}
+.trans-ok-item {
+  display: flex;
+  gap: 10px;
+}
+
+.trans h1:last-of-type {
+  padding-top: 40px;
+}
+
+.trans-not li + li {
+  margin-top: 8px;
+}
+
+.trans-not-item {
+  display: flex;
+  gap: 10px;
+}
+
+.trans a {
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .trans h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:425px) {
+  .trans a {
+    font-size: 1.125rem;
+    max-width: 300px;
+  }
+}

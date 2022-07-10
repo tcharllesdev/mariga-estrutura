@@ -1,0 +1,109 @@
+.faq-pr h1 {
+  margin-top: 60px;
+  margin-bottom: 32px;
+}
+
+.faq-item-pr {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.faq-pr dl > div {
+  padding: 20px 10px 20px 14px;
+  border-radius: 5px;
+}
+
+.faq-pr dl > div:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.faq-pr dl > div:nth-child(even) {
+  background-color: #ededed;
+}
+
+.faq-pr button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.faq-pr button::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../img/icons/faq-seta.svg");
+  height: 15px;
+  width: 15px;
+}
+
+.faq-pr button::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../img/icons/seta-abrir-black.svg");
+  height: 6px;
+  width: 14px;
+}
+
+.faq-pr button:hover:after,
+.faq-pr button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+
+.faq-pr dd {
+  display: none;
+  margin-left: 14px;
+  line-height: 1.4;
+}
+
+.faq-pr dd.ativa {
+  display: block;
+}
+
+.faq-pr dd {
+  padding-left: 24px;
+  padding-top: 12px;
+  max-width: 80ch;
+}
+
+.footer-bg {
+  background-color: #121212;
+}
+
+.footer-bg p:first-of-type {
+  padding-top: 12px;
+}
+.footer-bg p:last-of-type {
+  padding-bottom: 12px;
+}
+
+.footer-bg p {
+  padding: 4px 0;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+.info-pr {
+  margin-bottom: 60px;
+}
+.info-pr h1 {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.info-pr p {
+  max-width: 900px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 431px) {
+  .faq-pr h1 {
+    font-size: 2rem;
+  }
+}

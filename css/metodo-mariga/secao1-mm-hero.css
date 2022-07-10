@@ -1,0 +1,77 @@
+.hero-mm-bg {
+  background-image: url("../../img/metodo-mariga/hero-mm.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.hero-mm img {
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+.hero-mm h1 {
+  max-width: 660px;
+  margin-bottom: 24px;
+}
+
+.hero-mm p {
+  max-width: 570px;
+  margin-bottom: 24px;
+}
+
+.hero-mm p:last-of-type {
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1024px) {
+  .hero-mm-bg {
+    background-image: url("../../img/metodo-mariga/hero-mm-1024.jpg");
+  }
+  .hero-mm h1 {
+    max-width: 620px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-mm-bg {
+    background-image: url("../../img/metodo-mariga/hero-mm-800.jpg");
+    height: 900px;
+  }
+  .hero-mm img {
+    padding-top: 320px;
+  }
+}
+
+@media (max-width: 431px) {
+  .hero-mm-bg {
+    background-image: url("../../img/metodo-mariga/hero-mm-431.jpg");
+    height: 942px;
+  }
+  .hero-mm h1 {
+    font-size: 1.75rem;
+  }
+  .hero-mm img {
+    padding-top: 270px;
+  }
+ }
+
+@media (max-width: 375px) {
+  .hero-mm a {
+    padding: 10px 20px;
+    font-size: 1.15rem;
+  }
+  .hero-mm p:last-of-type {
+        margin-bottom: 24px;
+  }
+
+}
+@media (max-width: 320px) {
+  .hero-mm a {
+    padding: 10px 10px;
+    font-size: 1rem;
+  }
+
+}

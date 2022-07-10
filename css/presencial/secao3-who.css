@@ -1,0 +1,30 @@
+.who-pr {
+  padding-bottom: 60px;
+}
+
+.who-pr h1 {
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+
+.who-ok-pr li:last-child {
+  margin-bottom: 40px;
+}
+
+.who-ok-list-pr {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+  max-width: 700px;
+  align-items: center;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(270.13deg, #3f0312 38.49%, #ff0143 57.72%) 1;
+}
+
+@media (max-width: 431px) {
+  .who-pr h1 {
+    font-size: 2rem;
+  }
+}

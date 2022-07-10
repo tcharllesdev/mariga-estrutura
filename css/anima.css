@@ -1,0 +1,8 @@
+@keyframes seta {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 12px;
+  }
+}

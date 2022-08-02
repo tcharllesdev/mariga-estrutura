@@ -1,0 +1,105 @@
+.who-cq-bg {
+  background-color: #121212;
+  border-top: 4px solid;
+  border-image: linear-gradient(270.13deg, #3f0312 38.49%, #ff0143 57.72%) 1;
+  padding-bottom: 60px;
+}
+
+.who-cq h2 {
+  padding-top: 60px;
+  margin-bottom: 24px;
+}
+
+.who-cq h1 {
+  position: relative;
+}
+.who-cq h1::after {
+  content: "";
+  background-image: url("../../img/conquista/icons/decor.svg");
+  width: 52px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: 800px;
+}
+
+.who-cq ul {
+  margin-top: 24px;
+}
+.who-cq li {
+  position: relative;
+  margin: 12px 0;
+}
+.who-cq ul li:last-child {
+  margin-bottom: 48px;
+}
+.who-cq ul li:last-child:after {
+  content: "";
+  width: 123px;
+  height: 3px;
+  background-color: #ff0143;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
+.who-cq p {
+  margin: 12px 0;
+}
+.who-cq > p:first-of-type {
+  margin-top: 60px;
+}
+
+.who-cq-box {
+  margin-top: 32px;
+  background-color: #2e2e2e;
+  border-radius: 5px;
+  padding: 20px 40px;
+  max-width: 560px;
+}
+
+@media (max-width: 800px) {
+  .who-cq ul li:last-child:after {
+    top: 70px;
+  }
+  .who-cq h1::after {
+    left: 600px;
+  }
+}
+
+@media (max-width: 431px) {
+  .who-cq h1 {
+    font-size: 1.75rem;
+  }
+  .who-cq h1::after {
+    top: -60px;
+    left: 300px;
+  }
+  .who-cq h2 {
+    font-size: 1.125rem;
+  }
+  .who-cq ul li:last-child:after {
+    top: 90px;
+  }
+}
+@media (max-width: 375px) {
+  .who-cq h1::after {
+    left: 240px;
+  }
+  .who-cq p,
+  .who-cq li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .who-cq ul li:last-child:after {
+    top: 120px;
+  }
+}
+
+@media (max-width: 320px) {
+  .who-cq h1::after {
+    left: 220px;
+  }
+}

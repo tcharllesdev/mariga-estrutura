@@ -1,5 +1,5 @@
 .p1 {
-  color: #FF0143;
+  color: #ff0143;
 }
 .c1 {
   color: #ededed;
@@ -11,3 +11,7 @@
   color: #ffffff;
 }
 
+/*BG FONTE */
+.font-bg1 {
+  background-color: #2e2e2e;
+}

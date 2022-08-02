@@ -1,0 +1,115 @@
+.hero-cq-bg {
+  background-image: url("../../img/conquista/conquista-hero.jpg");
+  background-repeat: no-repeat;
+  background-color: #121212;
+  background-position: top;
+  height: 1250px;
+}
+.hero-cq img:first-of-type {
+  padding-top: 60px;
+  margin-bottom: 32px;
+}
+
+.hero-cq h1:first-of-type {
+  position: relative;
+  margin-bottom: 40px;
+}
+.hero-cq h1:first-of-type::before {
+  content: "";
+  width: 123px;
+  height: 3px;
+  background-color: #ff0143;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.hero-cq h1:nth-child(3) {
+  max-width: 960px;
+  margin-bottom: 24px;
+}
+
+.hero-cq p {
+  margin: 12px 0;
+  max-width: 900px;
+}
+
+.hero-cq p:nth-child(8) {
+  margin-bottom: 32px;
+}
+
+.hero-cq a {
+  margin-top: 32px;
+}
+
+@media (max-width: 1280px) {
+  .hero-cq-bg {
+    background-image: url("../../img/conquista/conquista-hero-1280.jpg");
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-cq-bg {
+    background-image: url("../../img/conquista/conquista-hero-800.jpg");
+    height: 1600px;
+  }
+  .hero-cq {
+    padding-top: 300px;
+  }
+  .hero-cq h1:first-of-type::before {
+    top: 60px;
+  }
+  .hero-cq h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 431px) {
+  .hero-cq-bg {
+    background-image: url("../../img/conquista/conquista-hero-431.jpg");
+    height: 1700px;
+  }
+  .hero-cq {
+    padding-top: 210px;
+  }
+  .hero-cq img:first-of-type {
+    width: 280px;
+  }
+  .hero-cq h1:first-of-type::before {
+    top: 80px;
+  }
+  .hero-cq h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 425px) {
+  .hero-cq h1:first-of-type::before {
+    top: 100px;
+  }
+}
+@media (max-width: 375px) {
+  .hero-cq h1 {
+    font-size: 1.5rem;
+  }
+  .hero-cq p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .hero-cq a {
+    max-width: 320px;
+    padding: 10px 20px;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-cq-bg {
+    height: 1860px;
+  }
+  .hero-cq a {
+    width: 240px;
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+}

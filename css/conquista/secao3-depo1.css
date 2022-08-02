@@ -1,0 +1,55 @@
+.depo1-cq > h1 {
+  margin-top: 60px;
+  margin-bottom: 48px;
+}
+
+.depoimento-cq-lista {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+.depoimento-cq-lista p {
+  max-width: 650px;
+}
+
+.depoimento-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.depoimento-avatar img {
+  border-radius: 50%;
+  border: 3px solid #ff0143;
+}
+
+.depoimento-avatar h1 {
+  margin: 8px 0 4px 0;
+}
+
+@media (max-width: 800px) {
+  .depoimento-cq-lista {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 431px) {
+  .depo1-cq > h1 {
+    margin-top: 42px;
+    margin-bottom: 32px;
+  }
+  .depo1-cq h1 {
+    font-size: 1.75rem;
+  }
+  .depoimento-avatar h1 {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .depo1-cq p {
+    font-size: 1rem;
+  }
+}

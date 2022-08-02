@@ -41,3 +41,11 @@
 .slider-cq button{
   background-color: #181818;
 }
+
+@media (max-width:431px) {
+  .carrossel-cq h1 {
+    font-size: 1.75rem;
+    padding-bottom: 32px;
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,43 @@
+/*CARROSSEL*/
+
+.carrossel-cq-bg {
+  padding-bottom: 40px;
+}
+
+.carrossel-cq h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.slider-container {
+  max-width: 1100px;
+  margin: 0 auto 20px;
+}
+
+.carousel-cq-item {
+  max-width: 360px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.carousel-cq-item img {
+  border-radius: 4px;
+  box-shadow: inset #121212;
+}
+
+.active {
+  background-color: #ff0143 !important;
+}
+
+.swiffy-slider {
+  padding-bottom: 40px;
+}
+
+.slider-nav {
+  --swiffy-slider-nav-light: #ff0143;
+}
+
+
+.slider-cq button{
+  background-color: #181818;
+}

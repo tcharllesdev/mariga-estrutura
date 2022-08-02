@@ -1,0 +1,82 @@
+.conteudo-cq-bg {
+  background-color: #121212;
+  padding-bottom: 60px;
+}
+
+.conteudo-cq h2 {
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+
+.conteudo-cq h1 {
+  position: relative;
+}
+
+.conteudo-cq h1::after {
+  content: "";
+  background-image: url("../../img/conquista/icons/decor.svg");
+  width: 52px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: 800px;
+}
+
+.conteudo-cq ul {
+  margin-top: 24px;
+}
+
+.conteudo-cq li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.conteudo-cq p {
+  max-width: 800px;
+}
+
+.conteudo-cq p:first-of-type {
+  margin: 32px 0;
+}
+.conteudo-cq p:last-of-type {
+  margin-top: 24px;
+}
+
+@media (max-width: 800px) {
+  .conteudo-cq h1::after {
+    left: 600px;
+  }
+}
+
+@media (max-width: 431px) {
+  .conteudo-cq h2 {
+    font-size: 1.125rem;
+  }
+
+  .conteudo-cq h1 {
+    font-size: 1.75rem;
+  }
+  .conteudo-cq h1::after {
+    top: -60px;
+    left: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .conteudo-cq h1::after {
+    left: 240px;
+  }
+  .conteudo-cq p,
+  .conteudo-cq li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 320px) {
+  .conteudo-cq h1::after {
+    left: 220px;
+  }
+}

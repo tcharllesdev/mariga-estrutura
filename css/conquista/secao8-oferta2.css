@@ -1,0 +1,142 @@
+.oferta2-cq {
+  padding-bottom: 60px;
+}
+.oferta2-cq h2 {
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+
+.oferta2-cq h1 {
+  max-width: 960px;
+  margin-bottom: 32px;
+}
+
+.oferta2-cq p {
+  margin: 12px 0;
+  max-width: 798px;
+}
+
+.oferta2-cq h3 {
+  margin-left: 8px;
+  position: relative;
+  max-width: 960px;
+  margin-top: 32px;
+}
+
+.oferta2-cq h3::before {
+  content: "";
+  width: 4px;
+  height: 11px;
+  display: block;
+  background-color: #ff0143;
+  position: absolute;
+  top: 5px;
+  left: -8px;
+}
+
+.valor-cq-cheio {
+  margin-top: 32px !important;
+  margin-bottom: 18px !important;
+  position: relative;
+}
+
+.valor-cq-cheio::after {
+  content: "";
+  background-image: url("../../img/conquista/icons/corta-preco.svg");
+  top: -10px;
+  left: 115px;
+  position: absolute;
+  width: 95px;
+  height: 48px;
+}
+
+.valor-cq-desconto {
+  font-size: 3rem;
+}
+
+.oferta2-cq a {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+/*GARANTIA*/
+.garantia-cq-bg {
+  background-color: #121212;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(270.13deg, #3f0312 38.49%, #ff0143 57.72%) 1;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.garantia-cq {
+  display: flex;
+  gap: 40px;
+  
+}
+.garantia-cq h1 {
+  font-size: 4rem;
+  letter-spacing: 0.015em;
+  margin-bottom: 24px;
+}
+
+.garantia-cq p {
+  max-width: 740px;
+}
+
+@media (max-width: 800px) {
+  .garantia-cq h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 431px) {
+  .oferta2-cq h1 {
+    font-size: 1.75rem;
+  }
+  .oferta2-cq h2 {
+    font-size: 1.125rem;
+  }
+  .valor-cq-cheio,
+  .valor-cq-desconto {
+    text-align: center;
+  }
+  .garantia-cq-bg {
+    padding-top: 40px;
+  }
+  .garantia-cq {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .garantia-cq-text {
+    order: 2;
+  }
+  .garantia-cq img {
+    order: 1;
+  }
+  .garantia-cq h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .oferta2-cq li {
+    font-size: 1rem;
+  }
+  .valor-cq-desconto {
+    font-size: 2.5rem;
+  }
+  .oferta2-cq a {
+    padding: 10px 20px;
+  }
+  .garantia-cq h1 {
+    font-size: 2.5rem;
+  }
+
+  .garantia-cq p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}

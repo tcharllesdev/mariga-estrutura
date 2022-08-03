@@ -1,0 +1,36 @@
+.benef-cq-bg {
+  background-color: #121212;
+  padding-bottom: 60px;
+}
+.benef-cq h2 {
+  padding-top: 60px;
+}
+
+.benef-cq h1 {
+  margin: 32px 0;
+}
+
+.benef-cq h1:first-of-type {
+  margin-top: 12px;
+}
+
+.benef-cq li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 431px) {
+  .benef-cq h1 {
+    font-size: 1.75rem;
+  }
+  .benef-cq h2 {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 375px) {
+  .benef-cq li {
+    font-size: 1rem;
+  }
+}

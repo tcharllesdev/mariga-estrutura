@@ -14,6 +14,9 @@
 }
 
 /*------*/
+.font-p-s {
+  font: 400 1rem/1.3 "Montserrat", sans-serif;
+}
 
 .font-p {
   font: 400 1.125rem/1.3 "Montserrat", sans-serif;

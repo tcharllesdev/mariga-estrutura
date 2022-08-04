@@ -13,7 +13,7 @@
 
 .oferta2-cq p {
   margin: 12px 0;
-  max-width: 798px;
+  max-width: 700px;
 }
 
 .oferta2-cq h3 {
@@ -21,6 +21,10 @@
   position: relative;
   max-width: 960px;
   margin-top: 32px;
+}
+
+.mockup-cq {
+  width: 500px;
 }
 
 .oferta2-cq h3::before {

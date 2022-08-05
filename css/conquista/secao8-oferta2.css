@@ -30,7 +30,7 @@
 .oferta2-cq h3::before {
   content: "";
   width: 4px;
-  height: 11px;
+  height: 18px;
   display: block;
   background-color: #ff0143;
   position: absolute;
